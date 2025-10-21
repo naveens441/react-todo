@@ -1,3 +1,4 @@
+
 import type { Todo } from "../types/todo"
 
 interface TodoItemProps {
@@ -6,7 +7,7 @@ interface TodoItemProps {
 }
 
 export default function TodoItem({ todo, onCompletedChange }: TodoItemProps) {
-   
+
     return (
         <div>
             <label className="flex items-center gap-3 border rounded-md p-2 border-gray-300 bg-white hover:bg-slate-50">
